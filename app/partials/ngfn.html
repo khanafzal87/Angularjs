@@ -1,0 +1,17 @@
+<form>
+	<div>
+		<h3>User1</h3>
+		<input type="text" ng-model="User1.name"/>
+		<input type="number" ng-model="User1.age"/>
+	</div>
+	<div>
+		<h3>User2</h3>
+		<input type="text" ng-model="User2.name"/>
+		<input type="number" ng-model="User2.age"/>
+	</div>
+
+User 1: <pre>{{User1 | json}}</pre>
+    User 2: <pre>{{User2 | json}}</pre>
+    Equal: <pre>{{result}}</pre>
+	<input type="button" value="Compare" ng-click="compare()"/>
+</form>

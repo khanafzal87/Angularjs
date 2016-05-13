@@ -1,0 +1,102 @@
+
+
+<style>
+    table, th, td {
+   border: 1px solid black;
+}
+</style>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      Search: <input ng-change='search()' ng-model="query">
+      Sort by:
+      <select ng-model="orderProp">
+        <option value="patient_name">Alphabetical</option>
+        <option value="-patient_name">Newest</option>
+      </select>
+
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+      <div ng-show="module=='meter'">
+   <h1>Meter Data</h1>  
+        <table  class="table table-striped table-condensed table-hover">
+        <tr>
+            <th>
+<a href="" ng-click="orderByField='patient_name';reverseSort=!reverseSort">
+                Patient Name <span ng-show="orderByField == 'patient_name'"><span ng-show="reverseSort">^</span><span ng-show="!reverseSort">v</span></span></a></th>
+            <th>
+<a href="" ng-click="orderByField='meter_serial';reverseSort=!reverseSort">
+                Meter Serial <span ng-show="orderByField == 'meter_serial'"><span ng-show="reverseSort">^</span><span ng-show="!reverseSort">v</span></span></a></th>
+            <th>
+<a href="" ng-click="orderByField='glucose_value';reverseSort=!reverseSort">
+                Glucose Value <span ng-show="orderByField == 'glucose_value'"><span ng-show="reverseSort">^</span><span ng-show="!reverseSort">v</span></span></a></th>  
+        </tr>
+        <tr ng-repeat="meter in objects | orderBy:orderByField:reverseSort | filter:paginate | filter:query">
+            
+            <td>{{meter.patient_name}}</td>
+            <td>{{meter.meter_serial}}</td>
+            <td>{{meter.glucose_value}}</td>
+        </tr>
+    </table>
+
+          <pagination  total-items="totalItems" ng-model="currentPage"
+          max-size="5" boundary-links="true"
+          items-per-page="numPerPage" class="pagination-sm">
+        </pagination>
+        </div>
+        <div ng-show="module=='exam'">
+   <h1>Exam Data</h1>
+
+    <table class="table table-striped table-condensed table-hover">
+        <tr>
+            <th>
+                <a href="" ng-click="orderByField='patient_name';reverseSort=!reverseSort">
+                Patient Name <span ng-show="orderByField == 'patient_name'"><span ng-show="reverseSort">^</span><span ng-show="!reverseSort">v</span></span></a></th>
+            <th><a href="" ng-click="orderByField='pressure_systolic';reverseSort=!reverseSort">
+                Systolic Pressure<span ng-show="orderByField == 'pressure_systolic'"><span ng-show="reverseSort">^</span><span ng-show="!reverseSort">v</span></span></a></th>
+            <th><a href="" ng-click="orderByField='pressure_diastolic';reverseSort=!reverseSort">
+                Diastolic Pressure<span ng-show="orderByField == 'pressure_diastolic'"><span ng-show="reverseSort">^</span><span ng-show="!reverseSort">v</span></span></a></th>
+        </tr>
+        <tr ng-repeat="exam in objects | orderBy:orderByField:reverseSort |filter:paginate">
+            
+            <td>{{exam.patient_name}}</td>
+            <td>{{exam.pressure_systolic}}</td>
+            <td>{{exam.pressure_diastolic}}</td>
+        </tr>
+    </table>
+    <pagination  total-items="totalItems" ng-model="currentPage"
+          max-size="5" boundary-links="true"
+          items-per-page="numPerPage" class="pagination-sm">
+        </pagination>
+</div>
+<div ng-show="module=='exercise'">
+   <h1>Exercise Data</h1>   
+  
+     <table class="table table-striped table-condensed table-hover" >
+        <tr>
+            <th>
+                <a href="" ng-click="orderByField='patient_name';reverseSort=!reverseSort">
+                Patient Name<span ng-show="orderByField == 'patient_name'"><span ng-show="reverseSort">^</span><span ng-show="!reverseSort">v</span></span></a>
+            <th>
+                <a href="" ng-click="orderByField='exe_type';reverseSort=!reverseSort">
+                Exercise Type<span ng-show="orderByField == 'exe_type'"><span ng-show="reverseSort">^</span><span ng-show="!reverseSort">v</span></span></a>
+          
+        </tr>
+        <tr ng-repeat="exercise in objects| orderBy:orderByField:reverseSort | filter:paginate">
+            
+            <td>{{exercise.patient_name}}</td>
+            <td>{{exercise.exe_type}}</td>
+         
+        </tr>
+    </table> 
+    <pagination  total-items="totalItems" ng-model="currentPage"
+          max-size="5" boundary-links="true"
+          items-per-page="numPerPage" class="pagination-sm">
+        </pagination>
+    </div>
+    </div>
+  </div>

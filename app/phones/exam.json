@@ -1,0 +1,338 @@
+[
+  {
+    "id": 128,
+    "patient_id": 2889,
+    "patient_name": "tester Mayekar",
+    "meter_serial": "12345666",
+    "doctor_id": 300,
+    "doctor_name": "bhavana Thakur",
+    "exm_date": {
+      "date": "2015-12-02 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exm_location": "Mumbai",
+    "pressure_systolic": 50,
+    "pressure_diastolic": 150,
+    "exm_pressure": "",
+    "exm_hdl": "20",
+    "exm_ldl": "20",
+    "exm_cholesterol": "30",
+    "exm_trig": "40",
+    "exm_lab_results": "50",
+    "exm_hba1c": "60",
+    "exm_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 137,
+    "patient_id": 2889,
+    "patient_name": "tester Mayekar",
+    "meter_serial": "12345666",
+    "doctor_id": 2,
+    "doctor_name": "Your Health Center",
+    "exm_date": {
+      "date": "2016-03-08 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exm_location": "mumbai",
+    "pressure_systolic": 12,
+    "pressure_diastolic": 50,
+    "exm_pressure": "",
+    "exm_hdl": "12",
+    "exm_ldl": "23",
+    "exm_cholesterol": "56",
+    "exm_trig": "45",
+    "exm_lab_results": "11",
+    "exm_hba1c": "3",
+    "exm_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 138,
+    "patient_id": 2889,
+    "patient_name": "tester Mayekar",
+    "meter_serial": "12345666",
+    "doctor_id": 2,
+    "doctor_name": "Your Health Center",
+    "exm_date": {
+      "date": "2016-03-08 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exm_location": "mumbai",
+    "pressure_systolic": 12,
+    "pressure_diastolic": 56,
+    "exm_pressure": "",
+    "exm_hdl": "12",
+    "exm_ldl": "23",
+    "exm_cholesterol": "34",
+    "exm_trig": "56",
+    "exm_lab_results": "67",
+    "exm_hba1c": "78",
+    "exm_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 139,
+    "patient_id": 2889,
+    "patient_name": "tester Mayekar",
+    "meter_serial": "12345666",
+    "doctor_id": 2,
+    "doctor_name": "Your Health Center",
+    "exm_date": {
+      "date": "2016-03-08 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exm_location": "mumbai",
+    "pressure_systolic": 90,
+    "pressure_diastolic": 123,
+    "exm_pressure": "",
+    "exm_hdl": "12",
+    "exm_ldl": "12",
+    "exm_cholesterol": "34",
+    "exm_trig": "45",
+    "exm_lab_results": "56",
+    "exm_hba1c": "67",
+    "exm_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 135,
+    "patient_id": 2889,
+    "patient_name": "tester Mayekar",
+    "meter_serial": "12345666",
+    "doctor_id": 2,
+    "doctor_name": "Your Health Center",
+    "exm_date": {
+      "date": "2016-02-03 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exm_location": "test",
+    "pressure_systolic": 50,
+    "pressure_diastolic": 122,
+    "exm_pressure": "",
+    "exm_hdl": "45",
+    "exm_ldl": "45",
+    "exm_cholesterol": "345",
+    "exm_trig": "345",
+    "exm_lab_results": "345",
+    "exm_hba1c": "354",
+    "exm_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 136,
+    "patient_id": 2889,
+    "patient_name": "tester Mayekar",
+    "meter_serial": "12345666",
+    "doctor_id": 2,
+    "doctor_name": "Your Health Center",
+    "exm_date": {
+      "date": "2016-03-07 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exm_location": "mumbai",
+    "pressure_systolic": 12,
+    "pressure_diastolic": 25,
+    "exm_pressure": "",
+    "exm_hdl": "78",
+    "exm_ldl": "12",
+    "exm_cholesterol": "56",
+    "exm_trig": "56",
+    "exm_lab_results": "67",
+    "exm_hba1c": "34",
+    "exm_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 145,
+    "patient_id": 2889,
+    "patient_name": "tester Mayekar",
+    "meter_serial": "12345666",
+    "doctor_id": 2,
+    "doctor_name": "Your Health Center",
+    "exm_date": {
+      "date": "2016-04-10 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exm_location": "fjnf",
+    "pressure_systolic": 23,
+    "pressure_diastolic": 34,
+    "exm_pressure": "",
+    "exm_hdl": "12",
+    "exm_ldl": "23",
+    "exm_cholesterol": "56",
+    "exm_trig": "14",
+    "exm_lab_results": "14",
+    "exm_hba1c": "45",
+    "exm_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 132,
+    "patient_id": 2889,
+    "patient_name": "tester Mayekar",
+    "meter_serial": "12345666",
+    "doctor_id": 2,
+    "doctor_name": "Your Health Center",
+    "exm_date": {
+      "date": "2016-01-20 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exm_location": "test",
+    "pressure_systolic": 45,
+    "pressure_diastolic": 150,
+    "exm_pressure": "",
+    "exm_hdl": "34",
+    "exm_ldl": "22",
+    "exm_cholesterol": "22",
+    "exm_trig": "22",
+    "exm_lab_results": "33",
+    "exm_hba1c": "12",
+    "exm_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 116,
+    "patient_id": 2889,
+    "patient_name": "tester Mayekar",
+    "meter_serial": "12345666",
+    "doctor_id": 300,
+    "doctor_name": "bhavana Thakur",
+    "exm_date": {
+      "date": "2015-11-16 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exm_location": "test",
+    "pressure_systolic": 50,
+    "pressure_diastolic": 100,
+    "exm_pressure": "",
+    "exm_hdl": "45",
+    "exm_ldl": "45",
+    "exm_cholesterol": "78",
+    "exm_trig": "12",
+    "exm_lab_results": "45",
+    "exm_hba1c": "45",
+    "exm_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 144,
+    "patient_id": 1922,
+    "patient_name": "Nancy Bro",
+    "meter_serial": "A000002B423650",
+    "doctor_id": 2,
+    "doctor_name": "Your Health Center",
+    "exm_date": {
+      "date": "2016-03-28 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exm_location": "Mumbai",
+    "pressure_systolic": 12,
+    "pressure_diastolic": 35,
+    "exm_pressure": "",
+    "exm_hdl": "45",
+    "exm_ldl": "45",
+    "exm_cholesterol": "45",
+    "exm_trig": "11",
+    "exm_lab_results": "25",
+    "exm_hba1c": "40",
+    "exm_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 107,
+    "patient_id": 1922,
+    "patient_name": "Nancy Bro",
+    "meter_serial": "A000002B423650",
+    "doctor_id": 2,
+    "doctor_name": "Your Health Center",
+    "exm_date": {
+      "date": "2015-11-06 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exm_location": "test",
+    "pressure_systolic": 56,
+    "pressure_diastolic": 565,
+    "exm_pressure": "",
+    "exm_hdl": "56",
+    "exm_ldl": "56",
+    "exm_cholesterol": "65",
+    "exm_trig": "56",
+    "exm_lab_results": "565",
+    "exm_hba1c": "65",
+    "exm_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 117,
+    "patient_id": 1922,
+    "patient_name": "Nancy Bro",
+    "meter_serial": "A000002B423650",
+    "doctor_id": 2,
+    "doctor_name": "Your Health Center",
+    "exm_date": {
+      "date": "2015-03-28 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exm_location": "test",
+    "pressure_systolic": 50,
+    "pressure_diastolic": 150,
+    "exm_pressure": "",
+    "exm_hdl": "20",
+    "exm_ldl": "21",
+    "exm_cholesterol": "21",
+    "exm_trig": "21",
+    "exm_lab_results": "20",
+    "exm_hba1c": "20",
+    "exm_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  }
+]

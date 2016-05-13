@@ -1,0 +1,67 @@
+
+<style>
+    table, th, td {
+   border: 1px solid black;
+}
+</style>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      Search: <input ng-model="query">
+      Sort by:
+      <select ng-model="orderProp">
+        <option value="patient_name">Alphabetical</option>
+        <option value="-patient_name">Newest</option>
+      </select>
+
+    </div>
+    <div class="col-md-10">
+  
+    <table >
+        <tr>
+            <td>Patient Name </td>
+            <td>Systolic Pressure</td>
+            <td>Diastolic Pressure</td>
+        </tr>
+        <tr ng-repeat="exam in examData | filter:query | orderBy:orderProp">
+            
+            <td>{{exam.patient_name}}</td>
+            <td>{{exam.pressure_systolic}}</td>
+            <td>{{exam.pressure_diastolic}}</td>
+        </tr>
+    </table>
+</div>
+
+<section>
+  <span class="">Ordered By: {{orderByField}}, Reverse Sort: {{reverseSort}}</span><br><br>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>
+          <a href="" ng-click="orderByField='patient_name'; reverseSort = !reverseSort">
+          Patient Name <span ng-show="orderByField == 'patient_name'"><span ng-show="!reverseSort">^</span><span ng-show="reverseSort">v</span></span>
+          </a>
+        </th>
+        <th>
+          <a href="" ng-click="orderByField='pressure_systolic'; reverseSort = !reverseSort">
+           Systolic Pressure <span ng-show="orderByField == 'pressure_systolic'"><span ng-show="!reverseSort">^</span><span ng-show="reverseSort">v</span></span>
+          </a>
+        </th>
+        <th>
+          <a href="" ng-click="orderByField='pressure_diastolic'; reverseSort = !reverseSort">
+          Diastolic Pressure <span ng-show="orderByField == 'pressure_diastolic'"><span ng-show="!reverseSort">^</span><span ng-show="reverseSort">v</span></span>
+          </a>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="exam in examData|orderBy:orderByField:reverseSort:orderProp | filter:query">
+        <td>{{exam.patient_name}}</td>
+        <td>{{exam.pressure_systolic}}</td>
+        <td>{{exam.pressure_diastolic}}</td>
+      </tr>
+    </tbody>
+  </table>
+</section>

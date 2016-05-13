@@ -1,0 +1,410 @@
+[
+  {
+    "id": 303,
+    "patient_id": 1922,
+    "patient_name": "Nancy Bro",
+    "meter_serial": "A000002B423650",
+    "exe_date": {
+      "date": "2015-09-29 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exe_type": "Strength",
+    "exe_subtype": "test",
+    "exe_time": "12:25:03",
+    "exe_duration": "12:02:04",
+    "exe_distance": "",
+    "exe_speed": "",
+    "exe_reps": "12:03:00",
+    "exe_weight": "44",
+    "exe_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 304,
+    "patient_id": 1922,
+    "patient_name": "Nancy Bro",
+    "meter_serial": "A000002B423650",
+    "exe_date": {
+      "date": "2015-09-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exe_type": "Cardiovascular",
+    "exe_subtype": "testing",
+    "exe_time": "00:00:00",
+    "exe_duration": "00:00:55",
+    "exe_distance": "89",
+    "exe_speed": "60",
+    "exe_reps": "",
+    "exe_weight": "",
+    "exe_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 306,
+    "patient_id": 1922,
+    "patient_name": "Nancy Bro",
+    "meter_serial": "A000002B423650",
+    "exe_date": {
+      "date": "2015-09-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exe_type": "Cardiovascular",
+    "exe_subtype": "test",
+    "exe_time": "00:00:00",
+    "exe_duration": "05:10:00",
+    "exe_distance": "2",
+    "exe_speed": "4.00",
+    "exe_reps": "",
+    "exe_weight": "",
+    "exe_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 381,
+    "patient_id": 1922,
+    "patient_name": "Nancy Bro",
+    "meter_serial": "A000002B423650",
+    "exe_date": {
+      "date": "2016-03-28 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exe_type": "Cardiovascular",
+    "exe_subtype": "Test",
+    "exe_time": "00:00:00",
+    "exe_duration": "11:12:12",
+    "exe_distance": "25",
+    "exe_speed": "55",
+    "exe_reps": "",
+    "exe_weight": "",
+    "exe_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 371,
+    "patient_id": 2889,
+    "patient_name": "tester Mayekar",
+    "meter_serial": "12345666",
+    "exe_date": {
+      "date": "2016-03-08 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exe_type": "Cardiovascular",
+    "exe_subtype": "test",
+    "exe_time": "00:00:00",
+    "exe_duration": "10:56:45",
+    "exe_distance": "90",
+    "exe_speed": "90",
+    "exe_reps": "",
+    "exe_weight": "",
+    "exe_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 364,
+    "patient_id": 2889,
+    "patient_name": "tester Mayekar",
+    "meter_serial": "12345666",
+    "exe_date": {
+      "date": "2015-12-15 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exe_type": "Cardiovascular",
+    "exe_subtype": "tets",
+    "exe_time": "00:00:00",
+    "exe_duration": "01:20:30",
+    "exe_distance": "45",
+    "exe_speed": "45",
+    "exe_reps": "",
+    "exe_weight": "",
+    "exe_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 365,
+    "patient_id": 2889,
+    "patient_name": "tester Mayekar",
+    "meter_serial": "12345666",
+    "exe_date": {
+      "date": "2016-01-20 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exe_type": "Cardiovascular",
+    "exe_subtype": "test",
+    "exe_time": "00:00:00",
+    "exe_duration": "09:23:12",
+    "exe_distance": "78",
+    "exe_speed": "33",
+    "exe_reps": "",
+    "exe_weight": "",
+    "exe_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 383,
+    "patient_id": 2889,
+    "patient_name": "tester Mayekar",
+    "meter_serial": "12345666",
+    "exe_date": {
+      "date": "2016-04-10 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exe_type": "Cardiovascular",
+    "exe_subtype": "12",
+    "exe_time": "00:00:00",
+    "exe_duration": "23:11:12",
+    "exe_distance": "12",
+    "exe_speed": "23",
+    "exe_reps": "",
+    "exe_weight": "",
+    "exe_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 358,
+    "patient_id": 1922,
+    "patient_name": "Nancy Bro",
+    "meter_serial": "A000002B423650",
+    "exe_date": {
+      "date": "2015-01-02 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exe_type": "Cardiovascular",
+    "exe_subtype": "Test",
+    "exe_time": "00:00:00",
+    "exe_duration": "02:02:02",
+    "exe_distance": "100",
+    "exe_speed": "50",
+    "exe_reps": "",
+    "exe_weight": "",
+    "exe_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 370,
+    "patient_id": 2889,
+    "patient_name": "tester Mayekar",
+    "meter_serial": "12345666",
+    "exe_date": {
+      "date": "2016-03-07 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exe_type": "Cardiovascular",
+    "exe_subtype": "test",
+    "exe_time": "00:00:00",
+    "exe_duration": "12:12:01",
+    "exe_distance": "13",
+    "exe_speed": "100",
+    "exe_reps": "",
+    "exe_weight": "",
+    "exe_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 332,
+    "patient_id": 1922,
+    "patient_name": "Nancy Bro",
+    "meter_serial": "A000002B423650",
+    "exe_date": {
+      "date": "2015-01-16 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exe_type": "Strength",
+    "exe_subtype": "",
+    "exe_time": "01:30:35",
+    "exe_duration": "00:00:00",
+    "exe_distance": "",
+    "exe_speed": "",
+    "exe_reps": "45",
+    "exe_weight": "45",
+    "exe_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 368,
+    "patient_id": 2889,
+    "patient_name": "tester Mayekar",
+    "meter_serial": "12345666",
+    "exe_date": {
+      "date": "2016-02-03 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exe_type": "Cardiovascular",
+    "exe_subtype": "test",
+    "exe_time": "00:00:00",
+    "exe_duration": "08:09:56",
+    "exe_distance": "45",
+    "exe_speed": "45",
+    "exe_reps": "",
+    "exe_weight": "",
+    "exe_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 369,
+    "patient_id": 2889,
+    "patient_name": "tester Mayekar",
+    "meter_serial": "12345666",
+    "exe_date": {
+      "date": "2016-02-03 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exe_type": "Cardiovascular",
+    "exe_subtype": "test",
+    "exe_time": "00:00:00",
+    "exe_duration": "08:09:56",
+    "exe_distance": "45",
+    "exe_speed": "45",
+    "exe_reps": "",
+    "exe_weight": "",
+    "exe_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 363,
+    "patient_id": 2889,
+    "patient_name": "tester Mayekar",
+    "meter_serial": "12345666",
+    "exe_date": {
+      "date": "2015-12-15 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exe_type": "Cardiovascular",
+    "exe_subtype": "tets",
+    "exe_time": "00:00:00",
+    "exe_duration": "01:20:30",
+    "exe_distance": "45",
+    "exe_speed": "45",
+    "exe_reps": "",
+    "exe_weight": "",
+    "exe_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 343,
+    "patient_id": 2889,
+    "patient_name": "tester Mayekar",
+    "meter_serial": "12345666",
+    "exe_date": {
+      "date": "2015-01-06 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exe_type": "Strength",
+    "exe_subtype": "testing",
+    "exe_time": "00:00:00",
+    "exe_duration": "00:00:00",
+    "exe_distance": "56",
+    "exe_speed": "56",
+    "exe_reps": "45",
+    "exe_weight": "45",
+    "exe_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 345,
+    "patient_id": 1922,
+    "patient_name": "Nancy Bro",
+    "meter_serial": "A000002B423650",
+    "exe_date": {
+      "date": "2015-01-17 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exe_type": "Cardiovascular",
+    "exe_subtype": "test",
+    "exe_time": "00:00:00",
+    "exe_duration": "01:02:03",
+    "exe_distance": "46",
+    "exe_speed": "45",
+    "exe_reps": "",
+    "exe_weight": "",
+    "exe_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  },
+  {
+    "id": 346,
+    "patient_id": 2889,
+    "patient_name": "tester Mayekar",
+    "meter_serial": "12345666",
+    "exe_date": {
+      "date": "2015-01-23 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "exe_type": "Cardiovascular",
+    "exe_subtype": "testing",
+    "exe_time": "00:00:00",
+    "exe_duration": "02:57:45",
+    "exe_distance": "7",
+    "exe_speed": "7",
+    "exe_reps": "",
+    "exe_weight": "",
+    "exe_read_date": {
+      "date": "-0001-11-30 00:00:00",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    }
+  }
+]

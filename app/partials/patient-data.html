@@ -1,0 +1,30 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      Search: <input ng-model="query">
+      Sort by:
+      <select ng-model="orderProp">
+        <option value="patient_name">Alphabetical</option>
+        <option value="-patient_name">Newest</option>
+      </select>
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+
+      <ul class="phones">
+        <li ng-repeat="patient in patientData | filter:query | orderBy:orderProp" ng-animate="'slide'"
+           >
+          <a href="#/logs/{{'meter'}}/{{patient.meter_serial}}" class="thumb">Meter Log</a>
+          <a href="#/logs/{{'exam'}}/{{patient.meter_serial}}" class="thumb">Exam Log</a>
+          <a href="#/logs/{{'exercise'}}/{{patient.meter_serial}}" class="thumb">Exercise Log</a>
+          <a href="#/logs/{{patient.meter_serial}}/{{}}">{{patient.patient_name}}</a>
+          <p>{{patient.meter_serial}}</p>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>
