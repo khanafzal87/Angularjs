@@ -38,3 +38,8 @@ return $resource('http://api.development.mymeterlink.com/logs/:logs/:meterid?acc
 	query:{method:'GET',isArray:true}
 });
 });
+phonecatServices.factory('taginput',function($resource){
+return $resource('phones/tag.json',{},{
+	query:{method:'GET',isArray:true}
+})
+})

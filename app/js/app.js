@@ -5,12 +5,14 @@
 var phonecatApp = angular.module('phonecatApp', [
   'ngRoute',
   'phonecatAnimations',
-'ui.bootstrap', 'ngResource',
+  'ui.bootstrap', 
+  'ngResource',
   'phonecatControllers',
   'phonecatFilters',
   'phonecatServices',
   'angularUtils.directives.dirPagination',
-  'angular-loading-bar'
+  'angular-loading-bar',
+  'ngTagsInput'
 ],function($interpolateProvider){
   //$interpolateProvider.startSymbol('[[');
   //$interpolateProvider.endSymbol(']]');
@@ -63,6 +65,10 @@ phonecatApp.config(['$routeProvider',
       when('/ ',{
         templateUrl:'partials/ngfn.html',
         controller:'ngfnCtrl'
+      }).
+      when('/taginput',{
+        templateUrl:'partials/taginput.html',
+        controller:'taginput'
       }).
       otherwise({
         redirectTo: '/test'

@@ -190,3 +190,15 @@ phonecatControllers.controller('ngfnCtrl',function($scope){
 });
 
 
+phonecatControllers.controller('taginput', function($scope, $http,taginput) {
+   $scope.tags = [
+    { id: 1, name: 'Tag1' },
+    { id: 2, name: 'Tag2' },
+    { id: 3, name: 'Tag3' }
+  ];
+  $scope.loadTags = function(query)
+  {
+    return $http.get('phones/tag.json');
+  }// taginput.query();
+  //$scope.objects=PatientLog.query({logs: $routeParams.logs,meterid:$routeParams.meterid});
+});
